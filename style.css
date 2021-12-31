@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+div.row{
+    height: 20px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+div.brick{
+    background-color: blue;
+    width: 20px;
+}
+div.coin{
+    background: url('coin2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.empty{
+    background: none;
+}
+div#pacman{
+    background: url('pacc.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+div#score{
+    border: 1px solid white;
+    width: 80px;
+    height: 20px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
